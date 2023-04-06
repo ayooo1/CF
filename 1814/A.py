@@ -2,14 +2,10 @@ x = int(input())
 
 
 def func(x,y):
-    if x % 2 == 0:
-        return "YES"
-
-    elif (x%2==1 and y%2 == 1) or (x%2 == 0 and y%2 == 0) or (x%2==0 and y%2==1):
-        return "YES"
-
+    if x % 2 == 1 and y%2 == 0:
+        return "No"
     else:
-        return "NO"
+        return "Yes"
 
 
 for _ in range(x):
