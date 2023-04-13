@@ -1,8 +1,10 @@
+from collections import deque
+
 class Solution:
-    def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
+    def validateStackSequences(self, pushed: list[int], popped: list[int]) -> bool:
         stack = [pushed[0]]
         n=1
-        popped = collections.deque(popped)
+        popped = deque(popped)
         while popped:
             if not stack and not popped:
                 return True
