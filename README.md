@@ -1,4 +1,5 @@
 # Competitive-Programming
 
-<br>CodeForces and Leetcode</br>
+## CodeForces and Leetcode
+
 My humble beginnings for competitive leetcoding.
