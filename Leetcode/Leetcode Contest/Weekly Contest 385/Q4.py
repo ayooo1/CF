@@ -2,6 +2,8 @@
 Solved after contest
 '''
 from collections import Counter
+from typing import List
+
 class PrefixHash:
     def __init__(self, arr):
         self.mod = mod = 344555666677777
